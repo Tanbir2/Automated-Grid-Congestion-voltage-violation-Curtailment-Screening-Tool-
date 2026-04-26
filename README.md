@@ -57,7 +57,7 @@ Results are processed into an interactive dashboard using **Streamlit**, allowin
 ## Installation & Usage
 
 ### Prerequisites
-* Python 3.8+
+* Python 3.7
 * PSS®E 34 or 35 (with valid license and environment variables set)
 * Required Libraries: `pandas`, `streamlit`
 
