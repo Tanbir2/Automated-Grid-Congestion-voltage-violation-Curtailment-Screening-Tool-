@@ -11,14 +11,11 @@ By integrating historical **AESO** market data with PSS®E power flow models, th
 * **Violation Screening**: Detects thermal overloads ($>100\%$ MVA) and bus voltage violations ($<0.95$ or $>1.05$ pu).
 * **Interactive Analytics**: Includes a **Streamlit** dashboard for visualizing line loading, voltage profiles, and curtailment statistics.
 
----
 
 ## System Architecture
 The tool follows a three-stage pipeline: **Data Processing → Simulation Engine → Visualization**.
 
 
-
----
 
 ## Technical Methodology
 
@@ -35,7 +32,6 @@ Where:
 * **Thermal**: Monitors branch flows against Rate A (Normal) and Rate B (Emergency) limits.
 * **Voltage**: Monitors all 100kV+ buses for deviations outside the standard $0.90–1.10$ pu range during contingencies.
 
----
 
 ## Data Sources & Inputs
 
@@ -47,7 +43,7 @@ This tool requires two primary inputs sourced from the **Alberta Electric System
     * **Alberta Internal Load (AIL)**: Hourly load data by planning area and region.
     * **Generation Metered Volumes**: Hourly MWh data for wind, solar, and thermal assets.
 
----
+
 
 ## Visualization & Dashboards
 Results are processed into an interactive dashboard using **Streamlit**, allowing planners to:
@@ -57,7 +53,6 @@ Results are processed into an interactive dashboard using **Streamlit**, allowin
 
 
 
----
 
 ## Installation & Usage
 
